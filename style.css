@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    overflow-y: auto;
+    background: repeating-linear-gradient(0deg, rgb(250, 250, 250) 0px, rgb(250, 250, 250) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(250, 250, 250) 0px, rgb(250, 250, 250) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(229,0%,100%),hsl(229,0%,100%));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#heading{
+text-align: left;
+margin: 5%;
+margin-bottom: 1%;
+}
+
+#trigimg{
+scale: 85%;
+border-radius: 15px;
+padding: 3%;
+background-color: rgba(255, 228, 196, 0.5);
+}
+
+.paragraph{
+width: 20%;
+margin: 5%;
+border-radius: 15px;
+background-color: rgba(255, 228, 196, 0.5);
+padding: 3%;
+}
+
+.format{
+text-align: center;
+align-items: center;
+display: flex;
+height: auto;
+width: auto;
+margin: 5%;
+margin-top: 1%;
+}
+
+.menu1{
+display: inline-flex;
+text-align: left;
+align-items: left;
+padding: 3%;
+padding-top: 0%;
+height: auto;
+width: auto;
+border-radius: 15px;
+background-color: rgba(255, 228, 196, 0.5);
+margin-top: 1%;
+}

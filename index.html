@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="Images/site.webmanifest">  
+</head>
+
+<body>
+   <h1>Trigonometry Calculator</h1> 
+   <hr>
+<h2 id="heading">Non right angle triangle (Area)</h2>
+<div class="format"> 
+<div class="menu1">
+<form>
+<h3>Side a</h3>
+<input type="text" id="sidea">
+<h3>Side c</h3>
+<input type="text" id="sidec">
+<h3>Angle B (°)</h3>
+<input type="text" id="angleb">
+<h3>Area</h3>
+<input type="text" id="area" disabled>
+</form>
+</div>
+<p class="paragraph">
+    To find the area of a non-right angle triangle using the sine function, you can use the formula:
+    Area = (1/2) * a * c * sin(B),
+    where 'a' and 'c' are the lengths of two sides of the triangle, and 'B' is the angle between those two sides.
+    You can refer to the diagram on the right for assistance. When finding the side or angle instead of area, you can rearrange the equation to find the sides or angle.
+    For proof of this formula and further explanation, click <a href="https://byjus.com/maths/law-of-sines/" target=”_blank”>here</a>.
+   </p>
+<img src="https://xaktly.com/Images/Mathematics/NonRightTrigonometry/NonRightTriangleLabeling.png" alt="trig triangle diagram" id="trigimg">
+</div>
+
+<hr>
+
+<h2 id="heading">Cosine rule (Find side)</h2>
+<div class="format">
+<div class="menu1">
+    <form>
+    <h3>Side b</h3>
+    <input type="text" id="sideb2">
+    <h3>Side c</h3>
+    <input type="text" id="sidec2">
+    <h3>Angle A (°)</h3>
+    <input type="text" id="anglea2">
+    <h3>Side a (Unknown side)</h3>
+    <input type="text" id="sidea2" disabled>
+    </form>
+    </div>
+    <p class="paragraph">The equation a^2 = b^2 + c^2 - 2bc * cos(A) is known as the Law of Cosines. 
+        It relates the lengths of the sides of a triangle to the cosine of one of its angles. In this equation, 
+        "a" represents the length of the side opposite angle A, while "b" and "c" represent the lengths of the other two sides.
+        By knowing the lengths of two sides and the measure of the included angle, we can use the Law of Cosines to calculate the length of the unknown side.
+        The equation considers both the lengths of the sides and the angle between them, 
+        taking into account the relationship between the lengths and the cosine of the angle.
+        You can refer to the image on the right. For a proof and further explanation, click <a href="https://byjus.com/maths/law-of-cosines/" target=”_blank”>here</a>.</p>
+        <img src="https://xaktly.com/Images/Mathematics/NonRightTrigonometry/NonRightTriangleLabeling.png" alt="trig triangle diagram" id="trigimg">
+    </div>
+
+    <hr>
+
+    <h2 id="heading">Cosine rule (Find angle)</h2>
+    <div class="format">
+    <div class="menu1">
+        <form>
+        <h3>Side b</h3>
+        <input type="text" id="sideb3">
+        <h3>Side c</h3>
+        <input type="text" id="sidec3">
+        <h3>Side a</h3>
+        <input type="text" id="sidea3">
+        <h3>Angle a (°) (Unknown angle)</h3>
+        <input type="text" id="anglea3" disabled>
+        </form>
+        </div>
+        <p class="paragraph">The formula used to calculate an angle in a triangle is known as the Law of Cosines. 
+            This formula allows us to determine an angle when we know the lengths of the triangle's sides. 
+            Specifically, the formula states that the square of one side (side a) is equal to the sum of the squares of the other two sides (side b and side c), 
+            minus twice the product of those two sides and the cosine of the angle opposite to side a. In mathematical notation, it can be expressed as a^2 = b^2 + c^2 - 2bc * cos(A), 
+            where A represents the angle opposite to side a. By rearranging this formula and solving for the angle A, we can find the measure of the angle when the lengths of the sides are known.
+            You can refer to the image on the right. For a proof and further explanation, click <a href="https://byjus.com/maths/law-of-cosines/" target=”_blank”>here</a>.</p>
+            <img src="https://xaktly.com/Images/Mathematics/NonRightTrigonometry/NonRightTriangleLabeling.png" alt="trig triangle diagram" id="trigimg">
+        </div>
+<script src="index.js"></script>
+</body>
+</html>
